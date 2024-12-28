@@ -115,16 +115,16 @@ spec:
               number: 80
 ```
 
-### Проверим работу **Docker репозитория**
-#### Авторизуемся в Docker репозитории
+## Проверим работу **Docker репозитория**
+##### Авторизуемся в Docker репозитории
 ```
 docker login nexus.poletaevlev.ru
 ```
-#### Перетэгируем образ
+##### Перетэгируем образ
 ```
 sudo docker tag image:tag nexus.poletaevlev.ru/image:tag
 ```
-#### Запушим образ в docker репозиторий
+##### Запушим образ в docker репозиторий
 ```
 docker push nexus.poletaevlev.ru/image:tag
 ```
